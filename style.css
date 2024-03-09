@@ -28,7 +28,7 @@ body{
 }
 .nav-items > li > button{
     border-color:  rgb(35, 95, 145);
-    color:rgb(35, 95, 145);
+    color:rgb(147, 181, 209);
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 100px;
@@ -41,4 +41,14 @@ body{
     transition:1s;
     cursor:pointer;
 }
-
+#bars{
+    display:flex;
+    margin-left:50px;
+}
+.bars_dec{
+    width:4px;
+    height:40px;
+    background:yellow;
+    margin:5px;
+    
+}
